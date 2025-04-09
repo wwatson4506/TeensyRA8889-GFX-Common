@@ -1,20 +1,20 @@
-# TeensyRA8876-GFX-Common
-## A universal RA8876 graphics library for use with SPI and 8080 drivers for Teensy boards and variants.
+# TeensyRA8889-GFX-Common
+## A universal RA8889 graphics library for use with SPI and 8080 drivers for Teensy boards and variants.
 
 Communication with the Teensy is accomplished using a 3/4 wire interface.
 
-![https://github.com/wwatson4506/TeensyRA8876-GFX-Common/blob/main/extras/RA8876_GFX_Common.jpg](https://github.com/wwatson4506/TeensyRA8876-GFX-Common/blob/main/extras/RA8876_GFX_Common.jpg)
+![https://github.com/wwatson4506/TeensyRA8889-GFX-Common/blob/main/extras/RA8889_GFX_Common.jpg](https://github.com/wwatson4506/TeensyRA8889-GFX-Common/blob/main/extras/RA8889_GFX_Common.jpg)
 
 This library is designed for use  with one of the following RA8876 drivers:
 
-- https://github.com/wwatson4506/TeensyRA8876-8080
+- https://github.com/wwatson4506/TeensyRA8889-8080
 or:
-- https://github.com/wwatson4506/TeensyRA8876-SPI
+- https://github.com/wwatson4506/TeensyRA8889-SPI
 
 ***
 ## LIBRARY INSTALLATION
-1. Unzip **TeensyRA8876-GFX-Common** into the **Arduino/libraries**  folder.
-2. Unzip **TeensyRA8876-8080** or **TeensyRA8876-SPI** into the **Arduino/libraries** folder.
+1. Unzip **TeensyRA8889-GFX-Common** into the **Arduino/libraries**  folder.
+2. Unzip **TeensyRA8889-8080** or **TeensyRA8889-SPI** into the **Arduino/libraries** folder.
 3. Download **ILI9341_fonts** [https://github.com/wwatson4506/ILI9341_fonts](https://github.com/wwatson4506/ILI9341_fonts) and install into the **Arduino/libraries** folder.
 ***
 
@@ -42,7 +42,7 @@ They added functions to be compatible with other display libraries, performed a 
 # REFERENCES
 ER-TFTM-101-1 10.1" TFT from BuyDisplay:
 - https://www.buydisplay.com/serial-spi-i2c-10-1-inch-tft-lcd-module-dislay-w-ra8876-optl-touch-panel
-- https://www.buydisplay.com/download/ic/RA8876.pdf
+- https://www.buydisplay.com/download/ic/RA8889.pdf
 
 PJRC Forum Threads:
 - https://forum.pjrc.com/threads/58565-RA8876LiteTeensy-For-Teensy-T36-and-T40
