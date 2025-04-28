@@ -9,7 +9,10 @@ This library is designed for use  with one of the following RA8876 drivers:
 
 - https://github.com/wwatson4506/TeensyRA8889-8080
 or:
-- https://github.com/wwatson4506/TeensyRA8889-SPI *** NOTE: THIS LINK IS NOT VALID YET. WORK IN PROGRESS ***
+- https://github.com/wwatson4506/TeensyRA8889-SPI
+# NOTE: THE SPI VERSION HAS NOT BEEN TESTED!!
+# I DO NOT HAVE THE SPI VERSION OF THIS DISPLAY TO TEST WITH YET. CHANCES ARE THAT IT MAY WORK.
+## USE AT YOUR OWN RISK!! There are no guarantees when using this library.
 
 ***
 ## LIBRARY INSTALLATION
