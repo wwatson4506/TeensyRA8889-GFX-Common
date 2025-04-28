@@ -1,0 +1,12 @@
+{
+	"name": "TeensyRA8889-GFX-Common",
+	"frameworks": "Arduino",
+	"platforms": "Teensy 3.6 - T4 - MicroMod",
+	"keywords": "Teensy_RA8889_GFX_Common",
+	"description": "wwatson TeensyRA8889-GFX-Common Library",
+	"version": "1.0.0",
+	"authors":
+	{	"name": "Warren Watson",
+		"maintainer": true
+	}
+}
