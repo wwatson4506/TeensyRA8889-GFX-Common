@@ -178,6 +178,8 @@ class RA8889_common : public Print {
     void putPicture_16bppData8(ru16 x, ru16 y, ru16 width, ru16 height, const unsigned char *data) {};   // not recommended: use BTE instead
     void putPicture_16bppData16(ru16 x, ru16 y, ru16 width, ru16 height, const unsigned short *data) {}; // not recommended: use BTE instead
 
+    volatile bool RA8889_BUSY; // This is used to show an transaction is in progress.
+
     void textRotate(boolean on);
     void setRotation(uint8_t rotation); // rotate text and graphics
     uint8_t getRotation();              // return the current rotation 0-3
