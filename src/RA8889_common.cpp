@@ -1306,8 +1306,9 @@ void RA8889_common::genitopCharacterRomParameter(ru8 scs_select, ru8 clk_div, ru
 //**************************************************************//
 void RA8889_common::putString(ru16 x0, ru16 y0, const char *str) {
     textMode(true);
+    setTextCursor(x,y);
     while (*str != '\0') {
-        write(*str);
+	write(*str);
         ++str;
     }
 }
